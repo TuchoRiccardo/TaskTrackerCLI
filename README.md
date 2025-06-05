@@ -43,9 +43,14 @@ Ejecución general:
 java -cp out main.Main [comando] [argumentos...]
 
 java -cp out main.Main add "..."
+
+
 java -cp out main.Main update 1 "..."
+
+
 java -cp out main.Main delete 1
-java -cp out main.Main mark-in-progress 1 
+
+java -cp out main.Main mark-in-progress 1  
 java -cp out main.Main mark-done 1
 java -cp out main.Main list
 java -cp out main.Main list done → Valores de estado válidos: todo, in-progress, done
